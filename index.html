@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TFCEC S1 Tournament Results</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>TFCEC S1 Tournament Results</h1>
+        <div class="tournament-info">
+          <div class="info-item">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Tournament start: 2025.03.28, 07:26:05</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <span>Latest update: 2025.04.02, 16:34:14</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Site/Country: WINRINAFLES, Philippines</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-chess-clock"></i>
+            <span>Level: Blitz 1/1</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="system-info">
+      <div class="container">
+        <h2>System Information</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <i class="fas fa-microchip"></i>
+            <h3>Hardware</h3>
+            <p>12th Gen Intel(R) Core(TM) i5-12450H with 15.7 GB Memory</p>
+          </div>
+          <div class="info-card">
+            <i class="fab fa-windows"></i>
+            <h3>Operating System</h3>
+            <p>Windows 10 Home Home Edition (Build 9200) 64 bit</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Benchmark</h3>
+            <p>ArenaMark: 55.38 AM, 3.24 EF</p>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-chess"></i>
+            <h3>Games</h3>
+            <p>702 games played / Tournament finished</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results">
+      <div class="container">
+        <h2>Tournament Results</h2>
+        <div class="table-container">
+          <table id="results-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th class="engine-col">Engine</th>
+                <th>Author</th>
+                <th>Country</th>
+                <th>Rating</th>
+                <th>Score</th>
+                <th>%</th>
+                <th>S-B</th>
+              </tr>
+            </thead>
+            <tbody id="results-body">
+              <!-- Table data will be populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+        <div class="download-section">
+          <a href="TFCEC%20S1.pgn" class="download-btn" download="TFCEC_S1.pgn">
+            <i class="fas fa-download"></i> Download PGN File
+          </a>
+          <p class="credit">
+            Table created with:
+            <a href="http://www.playwitharena.com">Arena 3.5</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 TFCEC Tournament. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
