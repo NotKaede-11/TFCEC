@@ -81,4 +81,4 @@ This project is open source and available under the MIT License.
 
 - All chess engine authors for their incredible work
 - Arena Chess GUI for tournament hosting capabilities
-- [CCRL](http://computerchess.org.uk/ccrl/) for their comprehensive chess engine rating lists
+- [CCRL](http://computerchess.org.uk/ccrl/) for their comprehensive chess engine rating lists.
